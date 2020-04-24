@@ -1,0 +1,72 @@
+@font-face { font-family: 'TTTogether'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/TTTogetherA.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'CookieRun-Regular'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff') format('woff'); font-weight: normal; font-style: normal; }
+.pfont{
+    color : burlywood;
+    /* font-size: 1rem; */
+    font: bold;
+    font-family: CookieRun-Regular;
+}
+.pfont1{
+    font-family: TTTogether;
+    color: black;
+}
+.psize{
+    height: 70vh;
+    width: 80vh;
+    background-color: rgb(251, 251, 239,0.9);
+    /* opacity: 0.9; */
+    border-radius: 5em;
+}
+.pnav{
+
+    opacity: 0.8;
+    position: relative;
+    z-index: 2;
+
+}
+.pcont{
+    position: relative;
+    z-index: 1;
+}
+.pimg{
+    opacity: 1;
+}
+.pimg :hover{
+    opacity: 0.5;
+    background-color: pink;
+}
+.pwidth{
+    width: 11rem;
+    height: 2rem;
+}
+.pleft{
+    width: 30vh;
+    height: 60vh;;
+    margin-left: 0;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    background-color: whitesmoke;
+    border-radius: 0.5em;
+}
+li{
+    margin-top: 0.5rem;
+}
+.haha{
+    background-color: gray;
+    width: 100%;
+}
+.haha :hover{
+    background-color: yellow;
+    
+}
+.mycolor{
+    background-color: yellowgreen;
+}
+.ab{
+    background-color: violet;
+    max-width: 100%;
+}
+.cd{
+    background-color: white;
+    margin: 1em;
+}
